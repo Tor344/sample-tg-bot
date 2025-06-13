@@ -4,7 +4,7 @@ from aiogram.filters import Command
 
 from config.logging_admin import loger
 
-from app.database.cart_db import db
+from app.database.repository import db
 
 from app.admin.keyboards import *
 from app.admin.state_fms import StateFmsAdmin
